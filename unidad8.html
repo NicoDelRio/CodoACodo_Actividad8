@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 8 - JavaScript - Unidad 3</title>
+    <style>
+        .Contenedor {
+            margin: 0 auto;
+            padding: 10px;
+            width: 300px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Contenedor">
+        <header>
+            <p>Ingreso al Sistema</p>
+        </header>
+        <form action="" name="miFormulario" method="post" required>
+            <fieldset>
+                <div>
+                    <label for="Usuario">Usuario:</label>
+                    <input tabindex="1" type="text" id="usuario" name="usuario" size=20 maxlength=20 placeholder="Ingrese Usu@rio">
+                </div>
+                <div>
+                    <label for="Clave">Clave:</label>
+                    <input tabindex="2" type="password" id="clave" name="clave" size=20 maxlength=20 placeholder="Ingrese Clave">
+                </div>
+                <br>
+                <input tabindex="3" type="submit" value="Ingresar" onclick="validarDatos()">
+            </fieldset>
+        </form>
+    </div>
+    <script src="control.js"></script>
+</body>
+
+</html>
